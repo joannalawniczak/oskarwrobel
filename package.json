@@ -1,0 +1,15 @@
+{
+  "name": "oskarwrobel",
+  "version": "1.0.0",
+  "description": "Static layout of Oskar Wróbel Homepage.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joanna Ławniczak <lawniczak.joanna@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  },
+  "dependencies": {}
+}
