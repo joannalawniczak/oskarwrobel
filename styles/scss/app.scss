@@ -2,6 +2,7 @@
  * ---------------------------------------------------- */
 html {
 	box-sizing: border-box;
+	height: 100%;
 }
 
 *, *:before, *:after {
@@ -10,7 +11,7 @@ html {
 
 html,
 body {
-	height: 100%;
+	min-height: 100%;
 }
 
 body,
@@ -189,7 +190,7 @@ main {
 		}
 
 		@media all and (max-width: 900px) {
-			width: 100px;
+			width: 160px;
 			padding-right: 60px;
 		}
 
@@ -233,13 +234,29 @@ main {
 /* Footer
  * ---------------------------------------------------- */
 footer {
-	a {
-		text-decoration: none;
-		font-size: 12px;
-		letter-spacing: 2px;
-		font-weight: 700;
-		color: #4d4c54;
-		text-transform: uppercase;
+	ul {
+		list-style: none;
+		padding-bottom: 15px;
+
+		li {
+			display: inline-block;
+
+			& + li {
+				margin-left: 23px;
+				padding-left: 23px;
+				border-left: solid 1px #4d4c54;
+			}
+
+			a {
+				display: block;
+				text-decoration: none;
+				font-size: 12px;
+				letter-spacing: 1.4px;
+				font-weight: 700;
+				color: #4d4c54;
+				text-transform: uppercase;
+			}
+		}
 	}
 }
 
@@ -295,6 +312,23 @@ footer {
 				&,
 				&:last-child { // To overwrite previous style
 					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	/* Footer
+	 * ---------------------------------------------------- */
+	footer {
+		ul {
+			li {
+				display: block;
+				margin: 20px 0;
+
+				& + li {
+					border: 0;
+					padding-left: 0;
+					margin-left: 0;
 				}
 			}
 		}
