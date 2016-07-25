@@ -1,4 +1,4 @@
-# Static layout of Oskar Wróbel homepage.
+# Static layout of JavaScript developer homepage.
 
 ## Preview:
 [http://joannalawniczak.github.io/oskarwrobel/](http://joannalawniczak.github.io/oskarwrobel/)
