@@ -1,5 +1,7 @@
 # Static layout of JavaScript developer homepage.
 
+[![devDependency Status](https://david-dm.org/joannalawniczak/oskarwrobel/dev-status.svg)](https://david-dm.org/joannalawniczak/oskarwrobel?type=dev)
+
 ## Preview:
 [http://joannalawniczak.github.io/oskarwrobel/](http://joannalawniczak.github.io/oskarwrobel/)
 
