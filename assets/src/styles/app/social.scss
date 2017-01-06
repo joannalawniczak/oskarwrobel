@@ -1,0 +1,113 @@
+.social {
+	list-style: none;
+
+	li {
+		display: inline-block;
+		width: 200px;
+		padding-right: 70px;
+
+		a {
+			display: block;
+			padding-top: 20px;
+			position: relative;
+			font-weight: 400;
+			font-size: 12px;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			text-decoration: none;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: 0;
+				left: 0;
+				height: 3px;
+				transform: scaleX(1);
+				transition: transform .7s;
+				transform-origin: 0;
+			}
+
+			&.email:before {
+				background: #5e5df7;
+			}
+
+			&.github:before {
+				background: #d84867;
+			}
+
+			&.linkedin:before {
+				background: #75d9d1;
+			}
+
+			&.instagram:before {
+				background: #d9d75b;
+			}
+
+			&:hover,
+			&:focus {
+				color: #b4b3ba;
+
+				&:before {
+					transform: scaleX(0);
+				}
+			}
+		}
+
+		@media all and (max-width: 900px) {
+			width: 160px;
+			padding-right: 60px;
+		}
+
+		@media all and (max-width: 715px) {
+			padding-right: 0;
+			width: auto;
+
+			&:not(:last-child) {
+				a {
+					margin-right: 70px;
+				}
+			}
+
+			a {
+				font-size: 14px;
+
+				&:before {
+					display: none;
+				}
+
+				&.email {
+					color: #8786ff;
+				}
+
+				&.github {
+					color: #ff6485;
+				}
+
+				&.linkedin {
+					color: #75d9d1;
+				}
+
+				&.instagram {
+					color: #ddf349;
+				}
+			}
+		}
+	}
+
+	@media all and (max-width: 600px) {
+		li {
+			padding: 0;
+			display: block;
+
+			a {
+				padding-top: 25px;
+
+				&,
+				&:last-child { // To overwrite previous style
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
