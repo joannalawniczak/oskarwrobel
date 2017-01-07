@@ -6,6 +6,5 @@
 <circle fill="none" stroke="#D84867" stroke-width="2" stroke-miterlimit="10" cx="1200.906" cy="44.614" r="12.983"/>
 <polyline fill="none" stroke="#75D9D1" stroke-width="2" stroke-miterlimit="10" points="999.995,236.563 1018.322,224.609 
 	1024.697,236.563 1038.243,224.609 1052.586,236.563 1061.351,224.609 "/>
-<polygon fill="none" stroke="#2C2A93" stroke-width="2" stroke-miterlimit="10" points="33.501,181.37 27.804,152.533 
-	55.196,160.009 "/>
+<rect x="-13.195" y="43.935" transform="matrix(0.856 0.517 -0.517 0.856 31.0458 7.3779)" fill="none" stroke="#3F3F4F" stroke-width="2" stroke-miterlimit="10" width="30.951" height="30.951"/>
 </svg>
