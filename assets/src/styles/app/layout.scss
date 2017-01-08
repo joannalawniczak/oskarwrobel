@@ -4,27 +4,27 @@ body {
 	background:
 		url('../images/bg-top.svg') 50% 0 no-repeat,
 		url('../images/bg-bottom.svg') 50% 100% no-repeat,
-		#0a061c;
+		#1c1c1c;
 	background-size: 100%;
 
 	@media all and (max-width: 1300px) {
 		background:
 			url('../images/bg-top-1200.svg') 50% 0 no-repeat,
 			url('../images/bg-bottom-1200.svg') 50% 100% no-repeat,
-			#0a061c;
+			#1c1c1c;
 		background-size: 100%;
 	}
 
 	@media all and (max-width: 700px) {
 		background:
 			url('../images/bg-top-700.svg') 50% 0 no-repeat,
-			#0a061c;
+			#1c1c1c;
 		background-size: 100%;
 	}
 
 	@media all and (max-width: 600px) {
 		text-align: center;
-		background: #0a061c;
+		background: #1c1c1c;
 		background-size: 100%;
 	}
 }

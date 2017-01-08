@@ -29,19 +29,19 @@
 			}
 
 			&.email:before {
-				background: #5e5df7;
+				background: #47b6ff;
 			}
 
 			&.github:before {
-				background: #d84867;
+				background: #d84d00;
 			}
 
 			&.linkedin:before {
-				background: #75d9d1;
+				background: #8cbe15;
 			}
 
 			&.instagram:before {
-				background: #d9d75b;
+				background: #f3aa00;
 			}
 
 			&:hover,
@@ -77,19 +77,19 @@
 				}
 
 				&.email {
-					color: #8786ff;
+					color: #47b6ff;
 				}
 
 				&.github {
-					color: #ff6485;
+					color: #d84d00;
 				}
 
 				&.linkedin {
-					color: #75d9d1;
+					color: #8cbe15;
 				}
 
 				&.instagram {
-					color: #ddf349;
+					color: #f3aa00;
 				}
 			}
 		}
