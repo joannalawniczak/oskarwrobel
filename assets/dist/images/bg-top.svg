@@ -3,8 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1494px" height="360.504px" viewBox="0 0 1494 360.504" enable-background="new 0 0 1494 360.504" xml:space="preserve">
-<circle fill="none" stroke="#C6D84C" stroke-width="2" stroke-miterlimit="10" cx="113.237" cy="58.858" r="17.249"/>
-<polygon fill="#383866" points="918.626,0 931.595,24.072 898.143,42.094 880.12,8.642 896.161,0 887.729,0 874.702,7.018 
-	896.518,47.513 937.013,25.696 923.17,0 "/>
-<rect x="1450.615" y="306.987" transform="matrix(-0.753 -0.658 0.658 -0.753 2364.2251 1543.8457)" fill="none" stroke="#5A5AD1" stroke-width="1.6335" stroke-miterlimit="10" width="42.469" height="42.471"/>
+<circle fill="none" stroke="#F3AA00" stroke-width="3.4203" stroke-miterlimit="10" cx="110.737" cy="61.358" r="14.749"/>
+<polygon opacity="0.7" fill="#384B66" points="918.626,0 931.595,24.072 898.143,42.094 880.12,8.642 896.161,0 887.729,0 
+	874.702,7.018 896.518,47.513 937.013,25.696 923.17,0 "/>
+<line fill="none" stroke="#47B6FF" stroke-width="5" stroke-miterlimit="10" x1="1462.5" y1="266.752" x2="1441.5" y2="290.752"/>
+<line fill="none" stroke="#FF4E4A" stroke-width="5" stroke-miterlimit="10" x1="1346.688" y1="198.495" x2="1335.74" y2="178.998"/>
 </svg>
