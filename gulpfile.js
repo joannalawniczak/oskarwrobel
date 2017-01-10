@@ -38,7 +38,7 @@ gulp.task( 'images', () => {
 
 // Build entire application.
 gulp.task( 'build', ( done ) => {
-	runSequence( 'clean', [ 'styles', 'images' ], done );
+	runSequence( 'clean', [ 'styles', 'scripts', 'images' ], done );
 } );
 
 // JS code sniffer.
